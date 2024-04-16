@@ -7,12 +7,12 @@ function secondHighest(arr) {
     let max1 = -Infinity;
     let Max2 = -Infinity;
 
-    for (let num of arr) {
-        if (num > max1) {
+    for (let n of arr) {
+        if (n > max1) {
             Max2 = max1;
-            max1 = num;
-        } else if (num > Max2 && num !== max1) {
-            Max2 = num;
+            max1 = n;
+        } else if (n > Max2 && n !== max1) {
+            Max2 = n;
         }
     }
 
